@@ -1,4 +1,3 @@
-
 #include <QMenuBar>
 #include <QMessageBox>
 #include "MainWindow.h"
@@ -6,76 +5,64 @@
 
 MainWindow::MainWindow(QWidget *parent) :
         QMainWindow(parent),
-        listWidget(new QListWidget(this))
+        stocklistWidget(new QListWidget(this))
 {
-    setCentralWidget(listWidget);
+    setCentralWidget(stocklistWidget);
     resize(800, 600);
 
     // Setup menu items
     QMenu* stockMenu = menuBar()->addMenu(tr("Stock"));
     QAction* addStockAction = stockMenu->addAction(tr("Add stock item"));
-    connect(addStockAction, &QAction::triggered, this, &MainWindow::addStockItem);
 
-    QMenu* listMenu = menuBar()->addMenu(tr("List"));
-    QAction* listConfectioneryAction = listMenu->addAction(tr("List Confectionery"));
-    QAction* listReadingMaterialAction = listMenu->addAction(tr("List Reading Material"));
+    QMenu* listMenu = menuBar()->addMenu(tr("List Stock"));
+    QAction* listConfectioneryAction = listMenu->addAction(tr("List Confectionery Items"));
+    QAction* listReadingMaterialAction = listMenu->addAction(tr("List Reading Material Items"));
+
+    // Slots and signals
+    connect(addStockAction, &QAction::triggered, this, &MainWindow::addStockItem);
     connect(listConfectioneryAction, &QAction::triggered, this, &MainWindow::listConfectionery);
     connect(listReadingMaterialAction, &QAction::triggered, this, &MainWindow::listReadingMaterial);
 
-
-
-//    Confectionery candy("Candy", 100, 50);
-//    Confectionery buns("Buns", 123, 50);
-//    Confectionery gateux("gateux", 432, 50);
-//    ReadingMaterial book("Book", 50, "Monthly");
-//
-//    confectioneries.append(candy);
-//    readingMaterials.append(book);
-//
-//    listWidget->clear();
-//    for(int i=0;i < confectioneries.size();i++){
-//        listWidget->addItem(confectioneries[i].toString());
-//    }
-//    listWidget->show();
 }
 
 MainWindow::~MainWindow()
 {
-    delete listWidget;
+    delete stocklistWidget;
 }
 
 void MainWindow::addStockItem()
 {
+    // Show the stock dialog and then based on selected save the item to the appropriate list
+    StockDialog myStockDialog(this);
+    if (myStockDialog.exec() == QDialog::Accepted) {
+        if (myStockDialog.getType() == "Confectionery") {
+            confectioneries.append(myStockDialog.getConfectionery());
+            QMessageBox::information(this, "Information", "Confectionary item added OK");
 
-    StockDialog dialog(this);
-    if (dialog.exec() == QDialog::Accepted) {
-        if (dialog.getType() == "Confectionery") {
-            confectioneries.append(dialog.getConfectionery());
-            QMessageBox::information(this, "Information", "Connfectionary item added OK");
-
-        } else if (dialog.getType() == "Reading Material") {
-            readingMaterials.append(dialog.getReadingMaterial());
-            QMessageBox::information(this, "Information", "Readingmaterial item added OK");
+        } else if (myStockDialog.getType() == "Reading Material") {
+            readingMaterials.append(myStockDialog.getReadingMaterial());
+            QMessageBox::information(this, "Information", "ReadingMaterial item added OK");
         }
     }
 }
 
 void MainWindow::listConfectionery()
 {
-
-    listWidget->clear();
+    // clear and append confectioneries items for display purposes
+    stocklistWidget->clear();
     for(int i=0;i < confectioneries.size();i++){
-        listWidget->addItem(confectioneries[i].toString());
+        stocklistWidget->addItem(confectioneries[i].toString());
     }
-    listWidget->show();
+    stocklistWidget->show();
 
 }
 
 void MainWindow::listReadingMaterial()
 {
-    listWidget->clear();
+    // clear and append readingMaterials items for display purposes
+    stocklistWidget->clear();
     for(int i=0;i < readingMaterials.size();i++){
-        listWidget->addItem(readingMaterials[i].toString());
+        stocklistWidget->addItem(readingMaterials[i].toString());
     }
-    listWidget->show();
+    stocklistWidget->show();
 }

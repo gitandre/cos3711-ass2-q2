@@ -14,8 +14,8 @@ protected:
 
 public:
     Stock() {}
-    Stock(QString i, int q) : item(i), quantity(q) {}
-    virtual ~Stock() {} // destructor
+    Stock(QString item, int quantity) : item(item), quantity(quantity) {}
+    virtual ~Stock() {}
 
     virtual QString getItem() { return item; }
     virtual int getQuantity() { return quantity; }
@@ -23,6 +23,6 @@ public:
     virtual void setItem(QString i) { item = i; }
     virtual void setQuantity(int q) { quantity = q; }
 
-    virtual QString toString() = 0; // Pure virtual function makes Stock abstract
+    virtual QString toString() = 0;
 };
-#endif //COS3711_ASS2_Q2_STOCK_H
+#endif

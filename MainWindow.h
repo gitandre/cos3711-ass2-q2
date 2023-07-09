@@ -1,12 +1,8 @@
-//
-// Created by andre on 2023/07/09.
-//
-
 #ifndef COS3711_ASS2_Q2_MAINWINDOW_H
 #define COS3711_ASS2_Q2_MAINWINDOW_H
+
 #include <QMainWindow>
 #include <QListWidget>
-
 #include "Confectionary.h"
 #include "ReadingMaterial.h"
 
@@ -24,10 +20,8 @@ private slots:
     void listReadingMaterial();
 
 private:
-    QListWidget* listWidget;
-
-    // Storage for demonstration purpose
+    QListWidget* stocklistWidget;
     QList<Confectionery> confectioneries;
     QList<ReadingMaterial> readingMaterials;
 };
-#endif //COS3711_ASS2_Q2_MAINWINDOW_H
+#endif
