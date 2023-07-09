@@ -15,6 +15,7 @@ private:
 public:
     ReadingMaterial() : Stock() {}
     ReadingMaterial(QString i, int q, QString f) : Stock(i, q), frequency(f) {}
+    ~ReadingMaterial() {} // destructor
 
     QString getFrequency() { return frequency; }
     void setFrequency(QString f) { frequency = f; }

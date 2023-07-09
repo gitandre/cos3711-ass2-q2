@@ -65,6 +65,38 @@ build CMakeFiles/cos3711_ass2_q2.dir/main.cpp.o: CXX_COMPILER__cos3711_ass2_q2_D
   OBJECT_DIR = CMakeFiles/cos3711_ass2_q2.dir
   OBJECT_FILE_DIR = CMakeFiles/cos3711_ass2_q2.dir
 
+build CMakeFiles/cos3711_ass2_q2.dir/Confectionary.cpp.o: CXX_COMPILER__cos3711_ass2_q2_Debug /home/andre/Dropbox/bsc2023/COS3711$ -$ Advanced$ Programming/Assignments/ass2/cos3711-ass2-q2/Confectionary.cpp || cmake_object_order_depends_target_cos3711_ass2_q2
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/cos3711_ass2_q2.dir/Confectionary.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets
+  OBJECT_DIR = CMakeFiles/cos3711_ass2_q2.dir
+  OBJECT_FILE_DIR = CMakeFiles/cos3711_ass2_q2.dir
+
+build CMakeFiles/cos3711_ass2_q2.dir/ReadingMaterial.cpp.o: CXX_COMPILER__cos3711_ass2_q2_Debug /home/andre/Dropbox/bsc2023/COS3711$ -$ Advanced$ Programming/Assignments/ass2/cos3711-ass2-q2/ReadingMaterial.cpp || cmake_object_order_depends_target_cos3711_ass2_q2
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/cos3711_ass2_q2.dir/ReadingMaterial.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets
+  OBJECT_DIR = CMakeFiles/cos3711_ass2_q2.dir
+  OBJECT_FILE_DIR = CMakeFiles/cos3711_ass2_q2.dir
+
+build CMakeFiles/cos3711_ass2_q2.dir/MainWindow.cpp.o: CXX_COMPILER__cos3711_ass2_q2_Debug /home/andre/Dropbox/bsc2023/COS3711$ -$ Advanced$ Programming/Assignments/ass2/cos3711-ass2-q2/MainWindow.cpp || cmake_object_order_depends_target_cos3711_ass2_q2
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/cos3711_ass2_q2.dir/MainWindow.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets
+  OBJECT_DIR = CMakeFiles/cos3711_ass2_q2.dir
+  OBJECT_FILE_DIR = CMakeFiles/cos3711_ass2_q2.dir
+
+build CMakeFiles/cos3711_ass2_q2.dir/StockDialog.cpp.o: CXX_COMPILER__cos3711_ass2_q2_Debug /home/andre/Dropbox/bsc2023/COS3711$ -$ Advanced$ Programming/Assignments/ass2/cos3711-ass2-q2/StockDialog.cpp || cmake_object_order_depends_target_cos3711_ass2_q2
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/cos3711_ass2_q2.dir/StockDialog.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets
+  OBJECT_DIR = CMakeFiles/cos3711_ass2_q2.dir
+  OBJECT_FILE_DIR = CMakeFiles/cos3711_ass2_q2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cos3711_ass2_q2
@@ -73,7 +105,7 @@ build CMakeFiles/cos3711_ass2_q2.dir/main.cpp.o: CXX_COMPILER__cos3711_ass2_q2_D
 #############################################
 # Link the executable cos3711_ass2_q2
 
-build cos3711_ass2_q2: CXX_EXECUTABLE_LINKER__cos3711_ass2_q2_Debug CMakeFiles/cos3711_ass2_q2.dir/cos3711_ass2_q2_autogen/mocs_compilation.cpp.o CMakeFiles/cos3711_ass2_q2.dir/main.cpp.o | /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.2.4 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.2.4 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.2.4 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || cos3711_ass2_q2_autogen cos3711_ass2_q2_autogen_timestamp_deps
+build cos3711_ass2_q2: CXX_EXECUTABLE_LINKER__cos3711_ass2_q2_Debug CMakeFiles/cos3711_ass2_q2.dir/cos3711_ass2_q2_autogen/mocs_compilation.cpp.o CMakeFiles/cos3711_ass2_q2.dir/main.cpp.o CMakeFiles/cos3711_ass2_q2.dir/Confectionary.cpp.o CMakeFiles/cos3711_ass2_q2.dir/ReadingMaterial.cpp.o CMakeFiles/cos3711_ass2_q2.dir/MainWindow.cpp.o CMakeFiles/cos3711_ass2_q2.dir/StockDialog.cpp.o | /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.2.4 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.2.4 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.2.4 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || cos3711_ass2_q2_autogen cos3711_ass2_q2_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.2.4  /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.2.4  /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.2.4  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
   OBJECT_DIR = CMakeFiles/cos3711_ass2_q2.dir
@@ -131,7 +163,7 @@ build cos3711_ass2_q2_autogen/timestamp cos3711_ass2_q2_autogen/mocs_compilation
 #############################################
 # Phony custom command for CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps
 
-build CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps: phony /usr/lib/qt6/libexec/moc /usr/lib/qt6/libexec/uic
+build CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps: phony /usr/lib/qt6/libexec/uic /usr/lib/qt6/libexec/moc
 
 
 #############################################

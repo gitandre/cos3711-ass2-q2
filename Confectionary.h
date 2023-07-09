@@ -15,6 +15,7 @@ private:
 public:
     Confectionery() : Stock() {}
     Confectionery(QString i, int q, int w) : Stock(i, q), weight(w) {}
+    ~Confectionery() {} // destructor
 
     int getWeight() { return weight; }
     void setWeight(int w) { weight = w; }

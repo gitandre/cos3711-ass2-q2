@@ -15,6 +15,7 @@ protected:
 public:
     Stock() {}
     Stock(QString i, int q) : item(i), quantity(q) {}
+    virtual ~Stock() {} // destructor
 
     virtual QString getItem() { return item; }
     virtual int getQuantity() { return quantity; }

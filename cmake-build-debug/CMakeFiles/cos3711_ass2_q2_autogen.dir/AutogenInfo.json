@@ -279,6 +279,12 @@
 			null
 		],
 		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/MainWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_MainWindow.cpp",
+			null
+		],
+		[
 			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/ReadingMaterial.h",
 			"MU",
 			"EWIEGA46WW/moc_ReadingMaterial.cpp",
@@ -288,6 +294,12 @@
 			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/Stock.h",
 			"MU",
 			"EWIEGA46WW/moc_Stock.cpp",
+			null
+		],
+		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/StockDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_StockDialog.cpp",
 			null
 		]
 	],
@@ -341,6 +353,26 @@
 	"SETTINGS_FILE" : "/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/CMakeFiles/cos3711_ass2_q2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/Confectionary.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/ReadingMaterial.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/StockDialog.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/main.cpp",
 			"MU",
