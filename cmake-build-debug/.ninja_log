@@ -1,30 +1,45 @@
 # ninja log v5
-7	899	1688959959773367372	cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
-7	899	1688959959773367372	cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
-0	7	0	CMakeFiles/clean.additional	7371ce97b1c9d818
+4	21	1688963307315323053	cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
+4	21	1688963307315323053	cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
+0	4	0	CMakeFiles/clean.additional	7371ce97b1c9d818
 4394	7726	1688959714231679301	CMakeFiles/cos3711_ass2_q2.dir/MainWindow.cpp.o	3f7b120ad9f977ae
 5917	8560	1688959967445483672	CMakeFiles/cos3711_ass2_q2.dir/StockDialog.cpp.o	a101c0e7b48b6fc8
-1	440	1688960373974384672	build.ninja	3ed84472d9f85088
-900	5916	1688959964801443720	CMakeFiles/cos3711_ass2_q2.dir/main.cpp.o	598b4be7cb768ea3
-7	899	1688959959773367372	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
-8950	9486	1688959968365497543	cos3711_ass2_q2	f1303534d59eabab
-910	3424	1688959962309405940	CMakeFiles/cos3711_ass2_q2.dir/Confectionary.cpp.o	915f58c0600e1cc5
-7	29	0	clean	dbbca5005b206802
-7	899	1688959959773367372	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
-5554	8950	1688959967833489525	CMakeFiles/cos3711_ass2_q2.dir/MyMainWindow.cpp.o	f74cff679ac124e7
-902	6116	1688959964993446628	CMakeFiles/cos3711_ass2_q2.dir/cos3711_ass2_q2_autogen/mocs_compilation.cpp.o	f5a69d0dbdce3717
-3425	5554	1688959964437438208	CMakeFiles/cos3711_ass2_q2.dir/ReadingMaterial.cpp.o	452e1ed331fac453
-1	254	1688960373974384672	build.ninja	3ed84472d9f85088
-0	7	0	CMakeFiles/clean.additional	7371ce97b1c9d818
-7	14	0	clean	dbbca5005b206802
-2	319	1688960387358514111	cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
-2	319	1688960387358514111	cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
-2	319	1688960387358514111	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
-2	319	1688960387358514111	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
-320	2119	1688960389162531442	CMakeFiles/cos3711_ass2_q2.dir/Confectionary.cpp.o	915f58c0600e1cc5
-319	3669	1688960390710546292	CMakeFiles/cos3711_ass2_q2.dir/main.cpp.o	598b4be7cb768ea3
-320	3889	1688960390910548209	CMakeFiles/cos3711_ass2_q2.dir/cos3711_ass2_q2_autogen/mocs_compilation.cpp.o	f5a69d0dbdce3717
-2119	3971	1688960391014549207	CMakeFiles/cos3711_ass2_q2.dir/ReadingMaterial.cpp.o	452e1ed331fac453
-3898	6596	1688960393638574325	CMakeFiles/cos3711_ass2_q2.dir/MyStockDialog.cpp.o	95fed00271ba0bbe
-3670	7030	1688960394070578456	CMakeFiles/cos3711_ass2_q2.dir/MyMainWindow.cpp.o	f74cff679ac124e7
-7030	7574	1688960394610583615	cos3711_ass2_q2	5dbcd2c1e39fa1a8
+1	254	1688963569604368441	build.ninja	3ed84472d9f85088
+419	4496	1688962043328625525	CMakeFiles/cos3711_ass2_q2.dir/main.cpp.o	598b4be7cb768ea3
+4	21	1688963307315323053	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
+3584	4178	1688963311463339130	cos3711_ass2_q2	5dbcd2c1e39fa1a8
+420	2042	1688962040876629717	CMakeFiles/cos3711_ass2_q2.dir/Confectionary.cpp.o	915f58c0600e1cc5
+4	21	1688963307315323053	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
+4	8	0	clean	dbbca5005b206802
+24	3584	1688963310875336849	CMakeFiles/cos3711_ass2_q2.dir/MyMainWindow.cpp.o	f74cff679ac124e7
+419	4144	1688962042972626129	CMakeFiles/cos3711_ass2_q2.dir/cos3711_ass2_q2_autogen/mocs_compilation.cpp.o	f5a69d0dbdce3717
+4145	7503	1688962046336620479	CMakeFiles/cos3711_ass2_q2.dir/MyStockDialog.cpp.o	95fed00271ba0bbe
+2043	3748	1688962042584626790	CMakeFiles/cos3711_ass2_q2.dir/ReadingMaterial.cpp.o	452e1ed331fac453
+0	6	0	CMakeFiles/clean.additional	7371ce97b1c9d818
+7	13	0	clean	dbbca5005b206802
+2	903	1688963636088640969	cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
+2	903	1688963636088640969	cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
+2	903	1688963636088640969	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
+2	903	1688963636088640969	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
+910	4091	1688963639276654098	CMakeFiles/cos3711_ass2_q2.dir/Confectionary.cpp.o	915f58c0600e1cc5
+905	5701	1688963640888660739	CMakeFiles/cos3711_ass2_q2.dir/cos3711_ass2_q2_autogen/mocs_compilation.cpp.o	f5a69d0dbdce3717
+4091	6022	1688963641212662074	CMakeFiles/cos3711_ass2_q2.dir/ReadingMaterial.cpp.o	452e1ed331fac453
+903	6061	1688963641248662221	CMakeFiles/cos3711_ass2_q2.dir/main.cpp.o	598b4be7cb768ea3
+6022	11478	1688963646656684511	CMakeFiles/cos3711_ass2_q2.dir/MyStockDialog.cpp.o	95fed00271ba0bbe
+6061	11794	1688963646984685864	CMakeFiles/cos3711_ass2_q2.dir/XMLViewerDialog.cpp.o	8ccc86d2448dca1
+5701	13089	1688963648276691192	CMakeFiles/cos3711_ass2_q2.dir/MyMainWindow.cpp.o	f74cff679ac124e7
+13089	14094	1688963649268695283	cos3711_ass2_q2	8e2651b8c8dacedb
+4	38	1688963657052727401	cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
+4	38	1688963657052727401	cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
+4	38	1688963657052727401	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
+4	38	1688963657052727401	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
+41	4762	1688963661772746893	CMakeFiles/cos3711_ass2_q2.dir/MyMainWindow.cpp.o	f74cff679ac124e7
+4762	5347	1688963662356749306	cos3711_ass2_q2	8e2651b8c8dacedb
+3	237	1688963945545936028	cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
+3	237	1688963945545936028	cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
+3	237	1688963945545936028	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/timestamp	9faadbd509caf7a3
+3	237	1688963945545936028	/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/cos3711_ass2_q2_autogen/mocs_compilation.cpp	9faadbd509caf7a3
+240	3796	1688963949109951142	CMakeFiles/cos3711_ass2_q2.dir/XMLViewerDialog.cpp.o	8ccc86d2448dca1
+237	4027	1688963949341952125	CMakeFiles/cos3711_ass2_q2.dir/cos3711_ass2_q2_autogen/mocs_compilation.cpp.o	f5a69d0dbdce3717
+239	4713	1688963950025955026	CMakeFiles/cos3711_ass2_q2.dir/MyMainWindow.cpp.o	f74cff679ac124e7
+4713	5294	1688963950601957469	cos3711_ass2_q2	8e2651b8c8dacedb

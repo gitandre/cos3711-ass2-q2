@@ -5,6 +5,7 @@
 #include <QListWidget>
 #include "Confectionary.h"
 #include "ReadingMaterial.h"
+#include <QXmlStreamWriter>
 
 class MyMainWindow : public QMainWindow
 {
@@ -18,6 +19,7 @@ private slots:
     void addStockItem();
     void listConfectionary();
     void listReadingMaterial();
+    void writeToXml();
 
 private:
     QListWidget* stocklistWidget;
@@ -27,5 +29,8 @@ private:
     void updateMixedStockList();
     void populateListConfectionary();
     void populateReadingMaterials();
+
+    // specific to question 3
+    void buildXML(QXmlStreamWriter &xmlWriter);
 };
 #endif

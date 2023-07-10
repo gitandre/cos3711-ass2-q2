@@ -313,6 +313,12 @@
 			"MU",
 			"EWIEGA46WW/moc_Stock.cpp",
 			null
+		],
+		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/XMLViewerDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_XMLViewerDialog.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -382,6 +388,11 @@
 		],
 		[
 			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/ReadingMaterial.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/XMLViewerDialog.cpp",
 			"MU",
 			null
 		],

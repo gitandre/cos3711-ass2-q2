@@ -11,6 +11,8 @@ cos3711_ass2_q2_autogen/timestamp: \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/ReadingMaterial.cpp \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/ReadingMaterial.h \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/Stock.h \
+	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/XMLViewerDialog.cpp \
+	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/XMLViewerDialog.h \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake \
@@ -329,6 +331,7 @@ cos3711_ass2_q2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/QXmlStreamWriter \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
@@ -359,6 +362,7 @@ cos3711_ass2_q2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
@@ -411,6 +415,7 @@ cos3711_ass2_q2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qxmlstream.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
