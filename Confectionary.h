@@ -14,11 +14,11 @@ private:
 
 public:
     Confectionary() : Stock() {}
-    Confectionary(QString i, int q, int w) : Stock(i, q), weight(w) {}
+    Confectionary(QString item, int qty, int weight) : Stock(item, qty), weight(weight) {}
     ~Confectionary() {} // destructor
 
     int getWeight() { return weight; }
-    void setWeight(int w) { weight = w; }
+    void setWeight(int weight) { weight = weight; }
 
     QString toString() override;
 };

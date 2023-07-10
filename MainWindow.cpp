@@ -24,6 +24,9 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(listConfectionaryAction, &QAction::triggered, this, &MainWindow::listConfectionary);
     connect(listReadingMaterialAction, &QAction::triggered, this, &MainWindow::listReadingMaterial);
 
+    // Show the initial/empty stock list
+    updateMixedStockList();
+
 }
 
 MainWindow::~MainWindow()
@@ -43,11 +46,11 @@ void MainWindow::addStockItem()
 
         if (auto confectionery = dynamic_cast<Confectionary*>(stock.get())) {
             confectioneries.append(*confectionery);
-            QMessageBox::information(this, "Information", "Confectionary item added OK");
+            QMessageBox::information(this, "Information", "Confectionary item saved OK");
         }
         else if (auto readingMaterial = dynamic_cast<ReadingMaterial*>(stock.get())) {
             readingMaterials.append(*readingMaterial);
-            QMessageBox::information(this, "Information", "ReadingMaterial item added OK");
+            QMessageBox::information(this, "Information", "ReadingMaterial item saved OK");
         }
     }
 
@@ -65,6 +68,10 @@ void MainWindow::listConfectionary()
 
 void MainWindow::populateListConfectionary() {
 
+    if (confectioneries.size() == 0){
+        stocklistWidget->addItem("Confectionaries: 0");
+        return;
+    }
     // Show just confectionary items -> by building a new list
     for(int i=0; i < confectioneries.size(); i++){
         stocklistWidget->addItem(confectioneries[i].toString());
@@ -74,14 +81,18 @@ void MainWindow::populateListConfectionary() {
 
 void MainWindow::listReadingMaterial()
 {
-    // Show just reading materails items
+    // Show just reading materials items
     stocklistWidget->clear();
     populateReadingMaterials();
 }
 
 void MainWindow::populateReadingMaterials() {
 
-    // Show just reading materails items -> by building a new list
+    if (readingMaterials.size() == 0){
+        stocklistWidget->addItem("ReadingMaterials: 0");
+        return;
+    }
+    // Show just reading materials items -> by building a new list
     for(int i=0; i < readingMaterials.size(); i++){
         stocklistWidget->addItem(readingMaterials[i].toString());
     }

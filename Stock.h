@@ -20,8 +20,8 @@ public:
     virtual QString getItem() { return item; }
     virtual int getQuantity() { return quantity; }
 
-    virtual void setItem(QString i) { item = i; }
-    virtual void setQuantity(int q) { quantity = q; }
+    virtual void setItem(QString item) { item = item; }
+    virtual void setQuantity(int qty) { quantity = qty; }
 
     virtual QString toString() = 0;
 };
