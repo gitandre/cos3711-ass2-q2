@@ -163,7 +163,7 @@ build cos3711_ass2_q2_autogen/timestamp cos3711_ass2_q2_autogen/mocs_compilation
 #############################################
 # Phony custom command for CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps
 
-build CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps: phony /usr/lib/qt6/libexec/uic /usr/lib/qt6/libexec/moc
+build CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/cos3711_ass2_q2_autogen_timestamp_deps: phony /usr/lib/qt6/libexec/moc /usr/lib/qt6/libexec/uic
 
 
 #############################################

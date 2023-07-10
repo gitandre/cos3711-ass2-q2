@@ -19,9 +19,12 @@ Q_OBJECT
 public:
     explicit StockDialog(QWidget *parent = nullptr);
 
-    Confectionery getConfectionery();
+    Confectionary getConfectionary();
     ReadingMaterial getReadingMaterial();
     QString getType();
+    QString getItem();
+    int getQuantity();
+    QString getExtra();
 
 private:
     QLineEdit* itemEdit;

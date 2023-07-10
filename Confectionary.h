@@ -4,18 +4,18 @@
 
 #ifndef COS3711_ASS2_Q2_CONFECTIONARY_H
 #define COS3711_ASS2_Q2_CONFECTIONARY_H
-// Confectionery.h
+// Confectionary.h
 #include "Stock.h"
 
-class Confectionery : public Stock
+class Confectionary : public Stock
 {
 private:
     int weight;
 
 public:
-    Confectionery() : Stock() {}
-    Confectionery(QString i, int q, int w) : Stock(i, q), weight(w) {}
-    ~Confectionery() {} // destructor
+    Confectionary() : Stock() {}
+    Confectionary(QString i, int q, int w) : Stock(i, q), weight(w) {}
+    ~Confectionary() {} // destructor
 
     int getWeight() { return weight; }
     void setWeight(int w) { weight = w; }

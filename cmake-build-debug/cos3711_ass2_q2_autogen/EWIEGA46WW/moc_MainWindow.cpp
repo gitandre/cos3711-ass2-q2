@@ -32,11 +32,11 @@ static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
 QT_MOC_LITERAL(0, 10), // "MainWindow"
 QT_MOC_LITERAL(11, 12), // "addStockItem"
 QT_MOC_LITERAL(24, 0), // ""
-QT_MOC_LITERAL(25, 17), // "listConfectionery"
+QT_MOC_LITERAL(25, 17), // "listConfectionary"
 QT_MOC_LITERAL(43, 19) // "listReadingMaterial"
 
     },
-    "MainWindow\0addStockItem\0\0listConfectionery\0"
+    "MainWindow\0addStockItem\0\0listConfectionary\0"
     "listReadingMaterial"
 };
 #undef QT_MOC_LITERAL
@@ -74,7 +74,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         (void)_t;
         switch (_id) {
         case 0: _t->addStockItem(); break;
-        case 1: _t->listConfectionery(); break;
+        case 1: _t->listConfectionary(); break;
         case 2: _t->listReadingMaterial(); break;
         default: ;
         }

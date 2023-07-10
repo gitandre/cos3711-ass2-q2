@@ -15,7 +15,7 @@ object/instance of the Stock class
 
 
 When a user chooses to add an item from the menu, use the Factory Method design pattern to
-return a pointer to either a Confectionery or ReadingMaterial object from the data entered
+return a pointer to either a Confectionary or ReadingMaterial object from the data entered
 by the user.
 
 The factory method should take a QString as an argument indicating what type of
@@ -28,7 +28,7 @@ You should then be able to do something similar to the following, although this 
 correct as the two signatures of the createStock() function differ – they should be the same.
 ```
 StockFactory sf;
-Stock* c1 = sf.createStock("Confectionery", "Kit Kat", 12, 65);
+Stock* c1 = sf.createStock("Confectionary", "Kit Kat", 12, 65);
 Stock* rm1 = sf.createStock("ReadingMaterial", "The Star", 100,
 "Daily");
 ```

@@ -14,8 +14,8 @@ StockDialog::StockDialog(QWidget *parent) :
         extraEdit(new QLineEdit(this)),
         typeBox(new QComboBox(this))
 {
-    typeBox->addItem("Confectionery");
-    typeBox->addItem("Reading Material");
+    typeBox->addItem("Confectionary");
+    typeBox->addItem("ReadingMaterial");
 
     QFormLayout* formLayout = new QFormLayout;
     formLayout->addRow("Type", typeBox);
@@ -35,9 +35,9 @@ StockDialog::StockDialog(QWidget *parent) :
     setWindowTitle("Capture Stock");
 }
 
-Confectionery StockDialog::getConfectionery()
+Confectionary StockDialog::getConfectionary()
 {
-    return Confectionery(itemEdit->text(), quantitySpin->value(), extraEdit->text().toInt());
+    return Confectionary(itemEdit->text(), quantitySpin->value(), extraEdit->text().toInt());
 }
 
 ReadingMaterial StockDialog::getReadingMaterial()
@@ -48,4 +48,16 @@ ReadingMaterial StockDialog::getReadingMaterial()
 QString StockDialog::getType()
 {
     return typeBox->currentText();
+}
+
+QString StockDialog::getItem() {
+    return itemEdit->text();
+}
+
+int StockDialog::getQuantity() {
+    return quantitySpin->value();
+}
+
+QString StockDialog::getExtra() {
+    return extraEdit->text();
 }

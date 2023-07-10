@@ -16,12 +16,18 @@ public:
 
 private slots:
     void addStockItem();
-    void listConfectionery();
+    void listConfectionary();
     void listReadingMaterial();
 
 private:
     QListWidget* stocklistWidget;
-    QList<Confectionery> confectioneries;
+    QList<Confectionary> confectioneries;
     QList<ReadingMaterial> readingMaterials;
+
+    void updateMixedStockList();
+
+    void populateListConfectionary();
+
+    void populateReadingMaterials();
 };
 #endif
