@@ -273,21 +273,33 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/ConfectReadingMatFactory.h",
+			"MU",
+			"EWIEGA46WW/moc_ConfectReadingMatFactory.cpp",
+			null
+		],
+		[
 			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/Confectionary.h",
 			"MU",
 			"EWIEGA46WW/moc_Confectionary.cpp",
 			null
 		],
 		[
-			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/ConfectionaryReadingMatFactory.h",
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/MyMainWindow.h",
 			"MU",
-			"EWIEGA46WW/moc_ConfectionaryReadingMatFactory.cpp",
+			"EWIEGA46WW/moc_MyMainWindow.cpp",
 			null
 		],
 		[
-			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/MainWindow.h",
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/MyStockDialog.h",
 			"MU",
-			"EWIEGA46WW/moc_MainWindow.cpp",
+			"EWIEGA46WW/moc_MyStockDialog.cpp",
+			null
+		],
+		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/MyStockFactory.h",
+			"MU",
+			"EWIEGA46WW/moc_MyStockFactory.cpp",
 			null
 		],
 		[
@@ -300,18 +312,6 @@
 			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/Stock.h",
 			"MU",
 			"EWIEGA46WW/moc_Stock.cpp",
-			null
-		],
-		[
-			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/StockDialog.h",
-			"MU",
-			"EWIEGA46WW/moc_StockDialog.cpp",
-			null
-		],
-		[
-			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/StockFactory.h",
-			"MU",
-			"EWIEGA46WW/moc_StockFactory.cpp",
 			null
 		]
 	],
@@ -371,17 +371,17 @@
 			null
 		],
 		[
-			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/MainWindow.cpp",
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/MyMainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/MyStockDialog.cpp",
 			"MU",
 			null
 		],
 		[
 			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/ReadingMaterial.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/andre/Dropbox/bsc2023/COS3711 - Advanced Programming/Assignments/ass2/cos3711-ass2-q2/StockDialog.cpp",
 			"MU",
 			null
 		],

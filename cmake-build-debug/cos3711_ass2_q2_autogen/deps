@@ -1,16 +1,16 @@
 cos3711_ass2_q2_autogen/timestamp: \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/CMakeLists.txt \
+	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/ConfectReadingMatFactory.h \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/Confectionary.cpp \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/Confectionary.h \
-	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/ConfectionaryReadingMatFactory.h \
-	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/MainWindow.cpp \
-	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/MainWindow.h \
+	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/MyMainWindow.cpp \
+	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/MyMainWindow.h \
+	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/MyStockDialog.cpp \
+	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/MyStockDialog.h \
+	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/MyStockFactory.h \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/ReadingMaterial.cpp \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/ReadingMaterial.h \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/Stock.h \
-	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/StockDialog.cpp \
-	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/StockDialog.h \
-	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/StockFactory.h \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake \
 	/home/andre/Dropbox/bsc2023/COS3711\ -\ Advanced\ Programming/Assignments/ass2/cos3711-ass2-q2/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake \

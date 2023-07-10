@@ -27,7 +27,7 @@ problem in the simplest possible way.
 You should then be able to do something similar to the following, although this is not entirely
 correct as the two signatures of the createStock() function differ – they should be the same.
 ```
-StockFactory sf;
+MyStockFactory sf;
 Stock* c1 = sf.createStock("Confectionary", "Kit Kat", 12, 65);
 Stock* rm1 = sf.createStock("ReadingMaterial", "The Star", 100,
 "Daily");

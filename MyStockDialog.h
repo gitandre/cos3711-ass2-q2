@@ -2,8 +2,8 @@
 // Created by andre on 2023/07/09.
 //
 
-#ifndef COS3711_ASS2_Q2_STOCKDIALOG_H
-#define COS3711_ASS2_Q2_STOCKDIALOG_H
+#ifndef COS3711_ASS2_Q2_MYSTOCKDIALOG_H
+#define COS3711_ASS2_Q2_MYSTOCKDIALOG_H
 #include <QDialog>
 #include <QLineEdit>
 #include <QSpinBox>
@@ -12,12 +12,12 @@
 #include "Confectionary.h"
 #include "ReadingMaterial.h"
 
-class StockDialog : public QDialog
+class MyStockDialog : public QDialog
 {
 Q_OBJECT
 
 public:
-    explicit StockDialog(QWidget *parent = nullptr);
+    explicit MyStockDialog(QWidget *parent = nullptr);
 
     Confectionary getConfectionary();
     ReadingMaterial getReadingMaterial();
@@ -32,4 +32,4 @@ private:
     QLineEdit* extraEdit;
     QComboBox* typeBox;
 };
-#endif //COS3711_ASS2_Q2_STOCKDIALOG_H
+#endif

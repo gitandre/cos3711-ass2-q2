@@ -1,18 +1,18 @@
-#ifndef COS3711_ASS2_Q2_MAINWINDOW_H
-#define COS3711_ASS2_Q2_MAINWINDOW_H
+#ifndef COS3711_ASS2_Q2_MYMAINWINDOW_H
+#define COS3711_ASS2_Q2_MYMAINWINDOW_H
 
 #include <QMainWindow>
 #include <QListWidget>
 #include "Confectionary.h"
 #include "ReadingMaterial.h"
 
-class MainWindow : public QMainWindow
+class MyMainWindow : public QMainWindow
 {
 Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    explicit MyMainWindow(QWidget *parent = nullptr);
+    ~MyMainWindow();
 
 private slots:
     void addStockItem();
@@ -25,9 +25,7 @@ private:
     QList<ReadingMaterial> readingMaterials;
 
     void updateMixedStockList();
-
     void populateListConfectionary();
-
     void populateReadingMaterials();
 };
 #endif

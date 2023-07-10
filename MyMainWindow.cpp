@@ -1,47 +1,51 @@
 #include <QMenuBar>
 #include <QMessageBox>
-#include "MainWindow.h"
-#include "StockDialog.h"
-#include "ConfectionaryReadingMatFactory.h"
+#include "MyMainWindow.h"
+#include "MyStockDialog.h"
+#include "ConfectReadingMatFactory.h"
 
-MainWindow::MainWindow(QWidget *parent) :
+MyMainWindow::MyMainWindow(QWidget *parent) :
         QMainWindow(parent),
         stocklistWidget(new QListWidget(this))
 {
     setCentralWidget(stocklistWidget);
     resize(800, 600);
 
-    // Setup menu items
+    // Setup menu items---------------------------------------------------------------------------------------------------
+    // Stock
     QMenu* stockMenu = menuBar()->addMenu(tr("Stock"));
     QAction* addStockAction = stockMenu->addAction(tr("Add stock item"));
 
+    // List
     QMenu* listMenu = menuBar()->addMenu(tr("List Stock"));
     QAction* listConfectionaryAction = listMenu->addAction(tr("List Confectionary Items"));
     QAction* listReadingMaterialAction = listMenu->addAction(tr("List Reading Material Items"));
 
     // Slots and signals
-    connect(addStockAction, &QAction::triggered, this, &MainWindow::addStockItem);
-    connect(listConfectionaryAction, &QAction::triggered, this, &MainWindow::listConfectionary);
-    connect(listReadingMaterialAction, &QAction::triggered, this, &MainWindow::listReadingMaterial);
+    connect(addStockAction, &QAction::triggered, this, &MyMainWindow::addStockItem);
+    connect(listConfectionaryAction, &QAction::triggered, this, &MyMainWindow::listConfectionary);
+    connect(listReadingMaterialAction, &QAction::triggered, this, &MyMainWindow::listReadingMaterial);
 
     // Show the initial/empty stock list
     updateMixedStockList();
 
 }
 
-MainWindow::~MainWindow()
+// Destructor
+MyMainWindow::~MyMainWindow()
 {
     delete stocklistWidget;
 }
 
-void MainWindow::addStockItem()
+// Add a new stock item of the 2 types
+void MyMainWindow::addStockItem()
 {
 
-    StockDialog dialog(this);
+    MyStockDialog dialog(this);
     if (dialog.exec() == QDialog::Accepted) {
 
         // Using the factory pattern to create confectionary or reading material
-        ConfectionaryReadingMatFactory factory;
+        ConfectReadingMatFactory factory;
         auto stock = factory.create(dialog.getType(), dialog.getItem(), dialog.getQuantity(), dialog.getExtra());
 
         if (auto confectionery = dynamic_cast<Confectionary*>(stock.get())) {
@@ -58,7 +62,7 @@ void MainWindow::addStockItem()
     updateMixedStockList();
 }
 
-void MainWindow::listConfectionary()
+void MyMainWindow::listConfectionary()
 {
     // Show just confectionary items
     stocklistWidget->clear();
@@ -66,12 +70,14 @@ void MainWindow::listConfectionary()
 
 }
 
-void MainWindow::populateListConfectionary() {
+void MyMainWindow::populateListConfectionary() {
 
+    // Handle zero qty
     if (confectioneries.size() == 0){
-        stocklistWidget->addItem("Confectionaries: 0");
+        stocklistWidget->addItem("Confectionary Items: 0");
         return;
     }
+
     // Show just confectionary items -> by building a new list
     for(int i=0; i < confectioneries.size(); i++){
         stocklistWidget->addItem(confectioneries[i].toString());
@@ -79,19 +85,21 @@ void MainWindow::populateListConfectionary() {
     stocklistWidget->show();
 }
 
-void MainWindow::listReadingMaterial()
+void MyMainWindow::listReadingMaterial()
 {
     // Show just reading materials items
     stocklistWidget->clear();
     populateReadingMaterials();
 }
 
-void MainWindow::populateReadingMaterials() {
+void MyMainWindow::populateReadingMaterials() {
 
+    // Handle zero qty
     if (readingMaterials.size() == 0){
-        stocklistWidget->addItem("ReadingMaterials: 0");
+        stocklistWidget->addItem("Reading Material Items: 0");
         return;
     }
+
     // Show just reading materials items -> by building a new list
     for(int i=0; i < readingMaterials.size(); i++){
         stocklistWidget->addItem(readingMaterials[i].toString());
@@ -99,7 +107,7 @@ void MainWindow::populateReadingMaterials() {
     stocklistWidget->show();
 }
 
-void MainWindow::updateMixedStockList() {
+void MyMainWindow::updateMixedStockList() {
 
     // Show both types in one list for after a save
     stocklistWidget->clear();

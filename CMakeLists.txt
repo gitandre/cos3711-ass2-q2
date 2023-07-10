@@ -13,7 +13,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(cos3711_ass2_q2 main.cpp Stock.h Confectionary.h ReadingMaterial.h Confectionary.cpp ReadingMaterial.cpp MainWindow.h MainWindow.cpp StockDialog.h StockDialog.cpp StockFactory.h ConfectionaryReadingMatFactory.h)
+add_executable(cos3711_ass2_q2 main.cpp Stock.h Confectionary.h ReadingMaterial.h Confectionary.cpp ReadingMaterial.cpp MyMainWindow.h MyMainWindow.cpp MyStockDialog.h MyStockDialog.cpp MyStockFactory.h ConfectReadingMatFactory.h)
 target_link_libraries(cos3711_ass2_q2
         Qt::Core
         Qt::Gui

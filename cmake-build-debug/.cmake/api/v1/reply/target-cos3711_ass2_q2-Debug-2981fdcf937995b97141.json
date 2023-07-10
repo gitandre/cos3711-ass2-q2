@@ -272,11 +272,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "cos3711_ass2_q2_autogen::@6890427a1f51a3e7e1df"
+			"id" : "cos3711_ass2_q2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "cos3711_ass2_q2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "cos3711_ass2_q2_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "cos3711_ass2_q2::@6890427a1f51a3e7e1df",
@@ -413,34 +413,34 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "MainWindow.h",
+			"path" : "MyMainWindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MainWindow.cpp",
+			"path" : "MyMainWindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "StockDialog.h",
+			"path" : "MyStockDialog.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "StockDialog.cpp",
+			"path" : "MyStockDialog.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "StockFactory.h",
+			"path" : "MyStockFactory.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "ConfectionaryReadingMatFactory.h",
+			"path" : "ConfectReadingMatFactory.h",
 			"sourceGroupIndex" : 1
 		},
 		{

@@ -4,7 +4,6 @@
 
 #ifndef COS3711_ASS2_Q2_CONFECTIONARY_H
 #define COS3711_ASS2_Q2_CONFECTIONARY_H
-// Confectionary.h
 #include "Stock.h"
 
 class Confectionary : public Stock
@@ -23,4 +22,4 @@ public:
     QString toString() override;
 };
 
-#endif //COS3711_ASS2_Q2_CONFECTIONARY_H
+#endif

@@ -1,11 +1,17 @@
 #include <QApplication>
-#include "MainWindow.h"
+#include "MyMainWindow.h"
 
+// Main entry point
 int main(int argc, char *argv[])
 {
+    // creat the Q app
     QApplication myApp(argc, argv);
-    MainWindow myMainWindow;
+
+    // create a new main window
+    MyMainWindow myMainWindow;
     myMainWindow.setWindowTitle("COS3711 - Assignment 2 - Question 2");
     myMainWindow.show();
+
+    // run the Q app
     return myApp.exec();
 }
